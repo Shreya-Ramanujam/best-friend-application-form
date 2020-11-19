@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body{
+    font-family: 'Courgette', cursive;
+    background: url(https://i1.faceprep.in/ProGrad/minion-background.png);
+    background-size:100% 100% ;  
+}
+
+section{
+    width:500px;
+    background-color: white;
+    margin:auto; //centering the element
+    padding:10px 0;
+}
+
+div{
+    text-align: center;
+}
+
+lable{
+    font-weight:bold;
+}
+
+input, textarea{
+    margin: 10px 0;
+}
+
+p,
+input[type="text"],
+input[type="number"],
+textarea,
+form{
+    width:350px;
+    padding:80x;
+}
+
+p,form{
+    margin:auto;
+}
+input[type="submit"]{
+    display:block;
+    background-color: violet;
+    color:white;
+    margin:auto;
+    padding:10px;
+    width:150px;
+    border:none;
+    border-radius: 5px;
+}
+input[type="checkbox"]{
+    margin-left:5px 0
+}
